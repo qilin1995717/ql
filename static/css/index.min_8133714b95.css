@@ -587,12 +587,13 @@ section h3{
 	width: 60%;
 	margin: 0 auto;
 	padding: .3rem;
+	text-align: center;
 }
 .wrapper .why-choose-us .item-03 .teach1 .teachjj h2{
 	margin-bottom: .2rem;
 }
 .wrapper .why-choose-us .item-03 .teach1 .teachjj p{
-	text-indent: 2em;
+	/* text-indent: 2em; */
 	font-size: .24rem;
 }
 .wrapper .why-choose-us .item-04 {
