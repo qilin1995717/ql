@@ -417,7 +417,20 @@
 	font-size: .5rem;
 	font-weight: 700;
 	color: #ea5413;
-	margin-bottom: .4rem
+	padding-bottom: .2rem;
+	margin-bottom: .3rem;
+	position: relative;
+}
+.wrapper .why-choose-us>h5:after{
+	content: '';
+	display: block;
+	width:25%;
+	height: 3px;
+	background:#ea5413;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .wrapper .why-choose-us .title-pic {
@@ -545,23 +558,47 @@
 	background-color: #7dccf3;
 	margin-top: -1px
 }
-.wrapper .why-choose-us .item-03 .teach1{
-	padding: .3rem .3rem .7rem;
-	display: flex;
-	flex: 1;
+section h3{
+	margin:.4rem; text-align: center; color: #ea5413;font-weight: 550;
+}
+#banner .swiper-slide {
+	overflow: hidden;
+}
+.thumb-list {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 5%;
+}
+.thumb {
+	width: 20%;
+	margin-left: 4%;
+	float: left;
+}
+.thumb .swiper-slide img {
+	width: 100%;
+	display: block;
 }
 .wrapper .why-choose-us .item-03 .teach1 .img{
-	width: 50%;
+	width: 60%;
+	margin: 0 auto;
 }
 .wrapper .why-choose-us .item-03 .teach1 .img img{
 	width: 100%;
 	height: 100%;
 }
 .wrapper .why-choose-us .item-03 .teach1 .teachjj{
-	width: 50%;
+	width: 60%;
+	margin: 0 auto;
 	padding: .3rem;
 }
-
+.wrapper .why-choose-us .item-03 .teach1 .teachjj h2{
+	margin-bottom: .2rem;
+}
+.wrapper .why-choose-us .item-03 .teach1 .teachjj p{
+	text-indent: 2em;
+	font-size: .12rem;
+}
 .wrapper .why-choose-us .item-04 {
 	background-color: rgba(0, 160, 233, .1)
 }

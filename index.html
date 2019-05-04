@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -7,7 +6,7 @@
 		<link rel="shortcut icon" href="/public/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="static/css/reset.css" />
 		<link rel="stylesheet" href="static/css/index.min_8133714b95.css">
-		<link rel="stylesheet" href="static/css/swiper-4.1.6.min.css">
+		<link rel="stylesheet" href="static/css/swiper.min.css">
 		<title>优斯国际英语</title>
 		<script>(function () {
       function resize() {
@@ -89,11 +88,12 @@
 					<section class="content"><img src="static/images/foreign_teach_01.png" alt=""></section>
 				</section>
 
-				<div style="width: 100%;overflow: hidden;margin-top: .5rem;">
+			<!-- 	<div style="width: 100%;overflow: hidden;margin-top: .5rem;">
 					<img src="static/images/bgg4.jpg" width="100%">
-				</div>
+				</div> -->
 				
-				<!-- <h5>为什么选择优斯？</h5> -->
+				<h5>为什么选择优斯？</h5>
+				
 				<section class="item-04">
 					<h3 class="title-pic"><img src="static/images/title_04.png" alt=""></h3>
 					<section class="content">
@@ -122,17 +122,57 @@
 						</ul>
 					</section>
 				</section>
-
-				<section class="item-03">
+				
+				<section class="item-03" style="position: relative;">
+					<h3>我们的外教团队</h3>
+					<p style="color: rgb(38, 164, 240); text-align: center;margin-top: -.3rem;margin-bottom: .2rem;">好外教、好课程、好服务，才能做到班级续班率98%!</p>
 					<section class="content">
-						<div class="teach1">
-							<div class="img">
-								
+						 <div class="swiper-container" id="banner">
+							<div class="swiper-wrapper">
+							  <div class="swiper-slide">
+								  <div class="teach1">
+								  	<div class="img">
+								  		<img src="static/images/b41792382b406a4afb53470b4b4a07a.jpg" >
+								  		
+								  	</div>
+								  	<div class="teachjj">
+								  		<h2>· Josef 精英外教</h2>
+								  		<p>
+								  			来自加拿大，英语文学学士学位，持有TESOL证书拥有6年儿童教学经验，对少儿教育富有激情。
+								  		</p>
+								  	</div>
+								  </div>
+							  </div>
+							  <div class="swiper-slide">
+								 <div class="teach1">
+								 	<div class="img">
+								 		<img src="static/images/b41792382b406a4afb53470b4b4a07a.jpg" >
+								 		
+								 	</div>
+								 	<div class="teachjj">
+								 		<h2>· Josef 精英外教</h2>
+								 		<p>
+								 			来自加拿大，英语文学学士学位，持有TESOL证书拥有6年儿童教学经验，对少儿教育富有激情。
+								 		</p>
+								 	</div>
+								 </div>	
+							  </div>
+							  <div class="swiper-slide">
+								 <div class="teach1">
+								 	<div class="img">
+								 		<img src="static/images/b41792382b406a4afb53470b4b4a07a.jpg" >
+								 		
+								 	</div>
+								 	<div class="teachjj">
+								 		<h2>· Josef 精英外教</h2>
+								 		<p>
+								 			来自加拿大，英语文学学士学位，持有TESOL证书拥有6年儿童教学经验，对少儿教育富有激情。
+								 		</p>
+								 	</div>
+								</div>	
+							  </div>
 							</div>
-							<div class="teachjj">
-								
-							</div>
-						</div>
+						  </div>
 					</section>
 				</section>
 				
@@ -181,6 +221,14 @@
 				</ul>
 			</nav>
 		</div>
-		<script type="text/javascript" src="static/js/swiper-4.1.6.min.js"></script>
+<script type="text/javascript" src="static/js/swiper.min.js"></script>
+<script type = "text/javascript">
+var bannerSwiper = new Swiper('#banner', {
+	// mousewheel: true,
+	effect: 'coverflow',
+	speed: 300,
+	watchSlidesProgress: true,
+});
+</script>
 	</body>
 </html>
