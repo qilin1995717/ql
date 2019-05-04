@@ -561,23 +561,19 @@
 section h3{
 	margin:.4rem; text-align: center; color: #ea5413;font-weight: 550;
 }
+.swiper-pagination-bullets{
+	bottom: 0;
+    left: 50%;
+	transform: translateX(-50%) !important;
+}
+.swiper-pagination-bullets span{
+	margin: 0 .2rem;
+}
 #banner .swiper-slide {
 	overflow: hidden;
 }
-.thumb-list {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: 5%;
-}
-.thumb {
-	width: 20%;
-	margin-left: 4%;
-	float: left;
-}
-.thumb .swiper-slide img {
-	width: 100%;
-	display: block;
+.wrapper .why-choose-us .item-03 .teach1{
+	padding-bottom: .3rem;
 }
 .wrapper .why-choose-us .item-03 .teach1 .img{
 	width: 60%;
@@ -597,7 +593,7 @@ section h3{
 }
 .wrapper .why-choose-us .item-03 .teach1 .teachjj p{
 	text-indent: 2em;
-	font-size: .12rem;
+	font-size: .24rem;
 }
 .wrapper .why-choose-us .item-04 {
 	background-color: rgba(0, 160, 233, .1)
