@@ -550,9 +550,9 @@ section h3{
 
     }
 
-.swiper-pagination-bullets{
-	bottom: 0;
-    left: 50%;
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 0 !important;
+    left: 50% !important;
 	transform: translateX(-50%) !important;
 }
 .swiper-pagination-bullets span{

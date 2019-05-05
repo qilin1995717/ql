@@ -171,21 +171,21 @@
 								</div>	
 							  </div>
 							</div>
+							<div class="swiper-pagination"></div>
 						  </div>
-						  <div class="swiper-pagination"></div>
 					</section>
 				</section>
 				
-				<section class="item-06" style="padding: .2rem 0; position: relative;">
+				<section class="item-06" style="padding: .3rem 0; position: relative;">
 					<h3 style="color: #FFFFFF;margin-bottom: .1rem;">一流的教学环境，孩子们来了就爱上了它</h3>
-					<div class="swiper-container hjimg">
+					<div class="swiper-container hjimg" style="overflow: initial">
 						<div class="swiper-wrapper">
 						  <div class="swiper-slide" style="background-image: url(static/images/7661d294be1fc959a5d43935232eb34.jpg);"></div>
 						  <div class="swiper-slide" style="background-image: url(static/images/ca19ba7532adf149c4c27e0b43f71ec.jpg);"></div>
 						  <div class="swiper-slide" style="background-image: url(static/images/be90f19199d3b875daaa83aa312bca1.jpg);"></div>
 						</div>
+						<div class="swiper-pagination" style="bottom: -.2rem !important;"></div>
 					  </div>
-					  <div class="swiper-pagination"></div>
 				</section>
 				<h5 style="margin: .2rem;">课下服务</h5>
 				<section class="item-07">
@@ -262,15 +262,12 @@ var hjswiper = new Swiper('.hjimg', {
         slideShadows : true,
       },
       pagination: {
-        el: '.swiper-pagination',
+       el: '.swiper-pagination',
       },
     });
 var talkswiper = new Swiper('.talk', {
       effect: 'flip',
       grabCursor: true,
-      pagination: {
-        el: '.swiper-pagination',
-      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
