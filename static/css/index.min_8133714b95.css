@@ -1,5 +1,5 @@
 .color-1 {
-	color: #1067d7
+	color:rgba(255, 194, 0, 1);
 }
 
 .wrapper {
@@ -114,8 +114,8 @@
 	-ms-flex: 1;
 	flex: 1;
 	height: .78rem;
-	border: 1px solid #1067d7;
-	color: #1067d7;
+	border: 1px solid rgb(252, 71, 38);
+	color: rgb(252, 71, 38);
 	font-size: .3rem;
 	text-align: center;
 	line-height: .78rem;
@@ -151,7 +151,7 @@
 .wrapper .reg-wrapper .reg-btn-box .reg-btn {
 	width: 5.9rem;
 	height: .9rem;
-	background-color: #1067d7;
+	background-color: rgb(252, 71, 38);
 	text-align: center;
 	line-height: .9rem;
 	color: #fff;
@@ -172,33 +172,6 @@
 .wrapper .reg-wrapper .login-box .login-link {
 	color: #1067d7
 }
-
-.wrapper .footer-wrapper {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	-moz-box-orient: vertical;
-	-moz-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-moz-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-justify-content: space-around;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	width: 100%;
-	padding: .4rem 0 .3rem;
-	background-color: #d7d7d7
-}
-
 .wrapper .footer-wrapper .goto-pc-box {
 	margin-bottom: .4rem;
 	width: 1.93rem;
@@ -399,7 +372,7 @@
 	font-weight: 700;
 	text-align: center;
 	font-size: .3222rem;
-	background: #d83627;
+	background: rgb(252, 71, 38);
 	color: #FFFFFF;
 	margin-top: .13rem;
 	border-radius: 0.1875rem;
@@ -416,7 +389,7 @@
 	text-align: center;
 	font-size: .5rem;
 	font-weight: 700;
-	color: #ea5413;
+	color:rgb(252, 71, 38);
 	padding-bottom: .2rem;
 	margin-bottom: .3rem;
 	position: relative;
@@ -516,7 +489,7 @@
 .wrapper .why-choose-us .main-box .item-container .l-right h6 {
 	font-size: .28rem;
 	font-weight: 700;
-	color: #d83627;
+	color: rgb(252, 71, 38);
 	padding-bottom: .18rem
 }
 	
@@ -559,8 +532,24 @@
 	margin-top: -1px
 }
 section h3{
-	margin:.4rem; text-align: center; color: #ea5413;font-weight: 550;
+	margin:.4rem; text-align: center; color: rgb(252, 71, 38);font-weight: 550;
 }
+.swiper-pagination-bullet-active{
+	background: rgba(255, 194, 0, 1) !important;
+}
+.item-06 .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+.item-06 .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }
+
 .swiper-pagination-bullets{
 	bottom: 0;
     left: 50%;
@@ -597,9 +586,23 @@ section h3{
 	font-size: .24rem;
 }
 .wrapper .why-choose-us .item-04 {
-	background-color: rgba(0, 160, 233, .1)
+	background-color: rgba(255, 194, 0, 0.3)
 }
-
+.talk{
+	width: 95%;
+	margin: .2rem auto;
+	display: flex;
+	justify-content: center;
+    padding: 9px 9px 3px;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d8d9d9;
+    border-bottom: 0 none;
+    background: #fff;
+	box-shadow: 0px 5px 3px #eeeeee;
+}
+.talk li{
+}
 .wrapper .why-choose-us .item-04 .title-pic {
 	width: 3.49rem
 }
@@ -691,9 +694,19 @@ section h3{
 }
 
 .wrapper .why-choose-us .item-06 {
-	background-color: rgba(244, 219, 115, .1)
+	background-color: #7dccf3;
 }
-
+.wrapper .why-choose-us .item-06 .hjimg{
+	width: 100%;
+	padding: .3rem;
+}
+.wrapper .why-choose-us .item-06 .hjimg .top .swiper-slide {
+      background-position: center;
+      background-size: cover;
+	  border-radius: 10px;
+      width: 300px;
+      height: 300px;
+    }
 .wrapper .why-choose-us .item-06 .title-pic {
 	width: 3.49rem
 }
@@ -711,108 +724,29 @@ section h3{
 	font-weight: 600
 }
 
-.wrapper .why-choose-us .item-06 .content .desctription {
+.wrapper .why-choose-us .content .desctription {
 	padding: .4rem 0;
 	line-height: 1.5;
 	text-align: center;
-	color: #d83627;
+	color: rgb(252, 71, 38);
 	font-weight: 600
 }
 
-.wrapper .why-choose-us .item-06 .content .video-container .video-box .video-info .gif-2 {
-	background: url(../images/video_02.png) no-repeat;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover
-}
+
 
 .wrapper .footer-wrapper {
-	background-color: #f8f8f8;
-	-webkit-box-align: start;
-	-webkit-align-items: start;
-	-moz-box-align: start;
-	-ms-flex-align: start;
-	align-items: start;
-	color: #00a0e9
+	background-color:#7dccf3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFFFFF;
 }
-
-.wrapper .footer-wrapper .goto-pc-box {
-	margin: 0 auto
+.wrapper .footer-wrapper h2{
+	font-size: 16px;
 }
-
-.wrapper .footer-wrapper .goto-pc-box .goto-pc-btn {
-	background: #fff
-}
-
-.wrapper .footer-wrapper h3 {
-	font-size: .56rem;
-	font-weight: 700;
-	padding: .5rem 0 .28rem .34rem
-}
-
-.wrapper .footer-wrapper p {
-	font-size: .24rem;
-	line-height: 1.5;
-	padding-left: .34rem
-}
-
-.wrapper .footer-wrapper .erweima {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	-moz-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	margin: .5rem .24rem 0
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img p {
-	text-align: center;
-	font-size: .32rem;
-	color: #7d7d7d;
-	padding: .53rem 0 .2rem
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img.active {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 999;
-	margin: 0
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img.active .erweima-mask {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img.active img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	z-index: 1002
-}
-
-.wrapper .footer-wrapper .erweima .erweima-img.active p {
-	display: none
+.wrapper .footer-wrapper p,
+.wrapper .footer-wrapper span{
+	font-size: 12px;
 }
 
 @keyframes dx{

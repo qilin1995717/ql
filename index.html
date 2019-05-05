@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-		<!-- <link rel="shortcut icon" href="/public/favicon.ico"> -->
+		<link rel="shortcut icon" href="/public/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="static/css/reset.css" />
 		<link rel="stylesheet" href="static/css/index.min_8133714b95.css">
 		<link rel="stylesheet" href="static/css/swiper.min.css">
@@ -122,10 +122,9 @@
 						</ul>
 					</section>
 				</section>
-				
-				<section class="item-03" style="position: relative;">
-					<h3>我们的外教团队</h3>
-					<p style="color: rgb(38, 164, 240); text-align: center;margin-top: -.3rem;margin-bottom: .2rem;">好外教、好课程、好服务，才能做到班级续班率98%!</p>
+				<h5 style="margin: .2rem;">我们的外教团队</h5>
+				<section class="item-03" style="position: relative;margin-top: .5rem;">
+					<p style="color:rgba(255, 194, 0, 1); text-align: center;margin-top: -.3rem;margin-bottom: .2rem;">好外教、好课程、好服务，才能做到班级续班率98%!</p>
 					<section class="content">
 						 <div class="swiper-container" id="banner">
 							<div class="swiper-wrapper">
@@ -177,40 +176,53 @@
 					</section>
 				</section>
 				
-				<!-- <section class="item-06">
-					<h3 class="title-pic"><img src="static/images/title_06.png" alt=""></h3>
+				<section class="item-06" style="padding-top: .2rem;">
+					<h3 style="color: #FFFFFF;margin-bottom: .1rem;">一流的教学环境，孩子们来了就爱上了它</h3>
+					<div class="swiper-container hjimg">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide" style="background-image: url(static/images/7661d294be1fc959a5d43935232eb34.jpg);"></div>
+						  <div class="swiper-slide" style="background-image: url(static/images/ca19ba7532adf149c4c27e0b43f71ec.jpg);"></div>
+						  <div class="swiper-slide" style="background-image: url(static/images/be90f19199d3b875daaa83aa312bca1.jpg);"></div>
+						</div>
+					  </div>
+				</section>
+				<h5 style="margin: .2rem;">课下服务</h5>
+				<section class="item-07">
 					<section class="content">
+						<p style="color:rgba(255, 194, 0, 1); text-align: center;margin-bottom: .2rem;">及时的课下练习发音跟踪服务，做到无缝衔接</p>
+						<ul class="talk">
+							<li>
+								<img src="static/images/t1.png" >
+							</li>
+							<li>
+								<img src="static/images/t2.png" >
+							</li>
+							<li>
+								<img src="static/images/t3.png" >
+							</li>
+						</ul>
 						
-						<ul class="talk"></ul>
-						<p class="desctription">及时的课下练习发音跟踪服务，做到无缝衔接	</p>
 						
 					</section>
 				</section>
-				<section class="item-07">
-					<h3 class="title-pic"><img src="static/images/title_07.png" alt=""></h3>
-					<section class="content">
-
-					</section>
-				</section> -->
 			</section>
 			<footer class="footer-wrapper">
-				<h3 id="hotLine">客服电话：<b>400-995-9688</b></h3>
-				<p>10:00-21:00（工作日）<span>* 仅收市话费</span></p>
-				<p>08:00-21:00（周末）</p>
-				<div class="erweima">
-					<div class="erweima-img">
-						<div class="erweima-mask"></div><img src="static/images/erwei_01.png" alt="">
-						<p>微信服务号</p>
-					</div>
-					<div class="erweima-img">
-						<div class="erweima-mask"></div><img src="static/images/erwei_02.png" alt="">
-						<p>微信订阅号</p>
-					</div>
+				<div style="width: 40%;"><img src="static/images/XeKpVD88HNSULqyRa9sk4vCsQxBF3rAY.png" ></div>
+				<div class="dz" style="width: 55%;padding-right: .2rem;">
+					<h2>一校地址</h2>
+					<p>纬五路政六街河南合作大厦B座8楼</p>
+					<span>TEL:0371-53365556</span>
+					<h2>二校地址</h2>
+					<p>丰庆路国基路向东200米路北</p>
+					<span>TEL:0371-63682669</span>
+					<h2>三校地址</h2>
+					<p>郑东商业中心B区9栋301室</p>
+					<span>TEL:0371-55178217</span>
 				</div>
 			</footer>
 			<nav class="nav-wrapper">
 				<ul class="nav-containerr">
-					<li class="nav-item" style="background: rgb(38, 164, 240);"><a href="tel:400-995-9688" seclick="电话咨询" class="ripple" id="ripple"><img src="static/images/icon_02.png"
+					<li class="nav-item" style="background: rgba(255, 194, 0, 1);"><a href="tel:400-995-9688" seclick="电话咨询" class="ripple" id="ripple"><img src="static/images/icon_02.png"
 							 alt="">
 							<p>电话咨询</p>
 						</a></li>
@@ -234,6 +246,23 @@ var bannerSwiper = new Swiper('#banner', {
     el: '.swiper-pagination',
   },
 });
+var hjswiper = new Swiper('.hjimg', {
+      effect: 'coverflow',
+	  autoplay:true,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
 </script>
 	</body>
 </html>
