@@ -151,7 +151,7 @@
 .wrapper .reg-wrapper .reg-btn-box .reg-btn {
 	width: 5.9rem;
 	height: .9rem;
-	background-color: rgb(252, 71, 38);
+	background-color: rgb(47, 193, 235);
 	text-align: center;
 	line-height: .9rem;
 	color: #fff;
@@ -205,6 +205,34 @@
 	max-width: 750px;
 	margin: 0 auto;
 	z-index: 100000
+}
+.wrapper .nav-wrapper{
+	background: #2fc1eb;
+}
+.wrapper .nav-wrapper img{
+	position: absolute;
+	left: 0.2rem;
+	width: 30%;
+	bottom: 0;
+}
+.wrapper .nav-wrapper .lq{
+	width: 65%;
+	padding-right: 0.15rem;
+	float: right;
+}
+.wrapper .nav-wrapper .lq h2{
+	color: #FFFFFF;
+	padding-top: 0.2rem;
+	font-size:0.28rem
+}
+.wrapper .nav-wrapper .lq a{
+	padding: 0.1rem 0.5rem;
+	font-size: 0.28rem;
+	background: #FFFFFF;
+	color: #3f9de7;
+	margin: 0 0.2rem 0.2rem 0;
+	border-radius: .3rem;
+	float: right;
 }
 
 .wrapper .nav-wrapper .nav-containerr {
@@ -372,7 +400,7 @@
 	font-weight: 700;
 	text-align: center;
 	font-size: .3222rem;
-	background: rgb(252, 71, 38);
+	background:rgb(47, 193, 235);
 	color: #FFFFFF;
 	margin-top: .13rem;
 	border-radius: 0.1875rem;
@@ -389,7 +417,7 @@
 	text-align: center;
 	font-size: .5rem;
 	font-weight: 700;
-	color:rgb(252, 71, 38);
+	color:#333;
 	padding-bottom: .2rem;
 	margin-bottom: .3rem;
 	position: relative;
@@ -591,7 +619,7 @@ section h3{
 	font-size: .24rem;
 }
 .wrapper .why-choose-us .item-04 {
-	background-color: rgba(255, 194, 0, 0.3)
+	background-color:#FFFFFF
 }
 .talk{
 	width: 95%;
@@ -703,7 +731,7 @@ section h3{
 }
 
 .wrapper .why-choose-us .item-06 {
-	background-color: #285ea2;
+	background-color: #7dccf3;
 }
 .wrapper .why-choose-us .item-06 .hjimg{
 	width: 100%;
